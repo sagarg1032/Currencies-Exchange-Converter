@@ -1,4 +1,4 @@
-# Currency Exchange Converter
+# Currencies Exchange Converter
 
 This script fetches historical currency exchange rates for the previous month and converts specified currencies to GBP using data from the Open Exchange Rates API. It automates the process of determining the relevant dates, fetching data, and structuring it in a user-friendly format.
 
@@ -29,6 +29,7 @@ This script fetches historical currency exchange rates for the previous month an
 - Python 3.7 or higher
 - Required Python packages:
   - `requests`
+  - `os`
   - `pandas`
 - Check Documentation for more reference: [Open Exchange Rates API](https://docs.openexchangerates.org/reference/api-introduction)
 
