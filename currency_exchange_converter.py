@@ -5,12 +5,14 @@ import os
 from datetime import datetime, timedelta
 
 # Load environment variables from .env file
-load_dotenv() 
-'''
-If load_dotenv() doesn't work then do this:
-load_dotenv('C:/Users/Your Name/Downloads/Github Projects/Currency_converter/.env'). 
-Here, Replace .env with .env_sample
-'''
+load_dotenv()
+"""
+If load_dotenv() doesn't work as expected, specify the full path to your .env file:
+Example:
+    load_dotenv('C:/Users/YourName/Downloads/Github Projects/Currency_converter/.env')
+    
+Replace '.env' with '.env_sample' if you are using a sample file.
+"""
 
 # Get the API key from the environment
 app_id = os.getenv('OPEN_EXCHANGE_API_KEY')
