@@ -17,7 +17,8 @@ url = f'https://openexchangerates.org/api/historical/{last_date}.json'
 load_dotenv() 
 '''
 If load_dotenv() doesn't work then do this:
-load_dotenv('C:/Users/Your Name/Downloads/Github Projects/Currency_converter/.env'). Here, Replace .env with .env_sample
+load_dotenv('C:/Users/Your Name/Downloads/Github Projects/Currency_converter/.env'). 
+Here, Replace .env with .env_sample
 '''
 
 # Get the API key from the environment
