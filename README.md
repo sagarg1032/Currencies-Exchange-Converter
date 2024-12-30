@@ -110,7 +110,7 @@ The script outputs a DataFrame with the following format:
 - Ensure your Open Exchange Rates API plan supports historical data retrieval
 - The script is designed to be easily extended for additional currencies or features
 - Verify that your .env file is properly configured and the API key is valid before running the script
-- If you face issues with 403 Forbidden errors, check:
+- If you face issues with **403** Forbidden errors, check:
   - Your API key's validity
   - Your subscription plan's support for the requested API features (e.g., historical data)
   - Monthly request limits in your account dashboard
